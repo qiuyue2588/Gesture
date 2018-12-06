@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FED347C21B9056A003C96D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED347B21B9056A003C96D3 /* AppDelegate.swift */; };
+		3FED347E21B9056A003C96D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED347D21B9056A003C96D3 /* ViewController.swift */; };
+		3FED348121B9056A003C96D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FED347F21B9056A003C96D3 /* Main.storyboard */; };
+		3FED348421B9056A003C96D3 /* nineth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FED348221B9056A003C96D3 /* nineth.xcdatamodeld */; };
+		3FED348621B9056B003C96D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FED348521B9056B003C96D3 /* Assets.xcassets */; };
+		3FED348921B9056B003C96D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FED348721B9056B003C96D3 /* LaunchScreen.storyboard */; };
+		3FED349421B9056B003C96D3 /* ninethTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED349321B9056B003C96D3 /* ninethTests.swift */; };
+		3FED349F21B9056B003C96D3 /* ninethUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED349E21B9056B003C96D3 /* ninethUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FED349021B9056B003C96D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FED347021B9056A003C96D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FED347721B9056A003C96D3;
+			remoteInfo = nineth;
+		};
+		3FED349B21B9056B003C96D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FED347021B9056A003C96D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FED347721B9056A003C96D3;
+			remoteInfo = nineth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FED347821B9056A003C96D3 /* nineth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nineth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FED347B21B9056A003C96D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FED347D21B9056A003C96D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FED348021B9056A003C96D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FED348321B9056A003C96D3 /* nineth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = nineth.xcdatamodel; sourceTree = "<group>"; };
+		3FED348521B9056B003C96D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FED348821B9056B003C96D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FED348A21B9056B003C96D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FED348F21B9056B003C96D3 /* ninethTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ninethTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FED349321B9056B003C96D3 /* ninethTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ninethTests.swift; sourceTree = "<group>"; };
+		3FED349521B9056B003C96D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FED349A21B9056B003C96D3 /* ninethUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ninethUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FED349E21B9056B003C96D3 /* ninethUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ninethUITests.swift; sourceTree = "<group>"; };
+		3FED34A021B9056B003C96D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FED347521B9056A003C96D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FED348C21B9056B003C96D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FED349721B9056B003C96D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FED346F21B9056A003C96D3 = {
+			isa = PBXGroup;
+			children = (
+				3FED347A21B9056A003C96D3 /* nineth */,
+				3FED349221B9056B003C96D3 /* ninethTests */,
+				3FED349D21B9056B003C96D3 /* ninethUITests */,
+				3FED347921B9056A003C96D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FED347921B9056A003C96D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FED347821B9056A003C96D3 /* nineth.app */,
+				3FED348F21B9056B003C96D3 /* ninethTests.xctest */,
+				3FED349A21B9056B003C96D3 /* ninethUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FED347A21B9056A003C96D3 /* nineth */ = {
+			isa = PBXGroup;
+			children = (
+				3FED347B21B9056A003C96D3 /* AppDelegate.swift */,
+				3FED347D21B9056A003C96D3 /* ViewController.swift */,
+				3FED347F21B9056A003C96D3 /* Main.storyboard */,
+				3FED348521B9056B003C96D3 /* Assets.xcassets */,
+				3FED348721B9056B003C96D3 /* LaunchScreen.storyboard */,
+				3FED348A21B9056B003C96D3 /* Info.plist */,
+				3FED348221B9056A003C96D3 /* nineth.xcdatamodeld */,
+			);
+			path = nineth;
+			sourceTree = "<group>";
+		};
+		3FED349221B9056B003C96D3 /* ninethTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FED349321B9056B003C96D3 /* ninethTests.swift */,
+				3FED349521B9056B003C96D3 /* Info.plist */,
+			);
+			path = ninethTests;
+			sourceTree = "<group>";
+		};
+		3FED349D21B9056B003C96D3 /* ninethUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FED349E21B9056B003C96D3 /* ninethUITests.swift */,
+				3FED34A021B9056B003C96D3 /* Info.plist */,
+			);
+			path = ninethUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FED347721B9056A003C96D3 /* nineth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FED34A321B9056B003C96D3 /* Build configuration list for PBXNativeTarget "nineth" */;
+			buildPhases = (
+				3FED347421B9056A003C96D3 /* Sources */,
+				3FED347521B9056A003C96D3 /* Frameworks */,
+				3FED347621B9056A003C96D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nineth;
+			productName = nineth;
+			productReference = 3FED347821B9056A003C96D3 /* nineth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FED348E21B9056B003C96D3 /* ninethTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FED34A621B9056B003C96D3 /* Build configuration list for PBXNativeTarget "ninethTests" */;
+			buildPhases = (
+				3FED348B21B9056B003C96D3 /* Sources */,
+				3FED348C21B9056B003C96D3 /* Frameworks */,
+				3FED348D21B9056B003C96D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FED349121B9056B003C96D3 /* PBXTargetDependency */,
+			);
+			name = ninethTests;
+			productName = ninethTests;
+			productReference = 3FED348F21B9056B003C96D3 /* ninethTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FED349921B9056B003C96D3 /* ninethUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FED34A921B9056B003C96D3 /* Build configuration list for PBXNativeTarget "ninethUITests" */;
+			buildPhases = (
+				3FED349621B9056B003C96D3 /* Sources */,
+				3FED349721B9056B003C96D3 /* Frameworks */,
+				3FED349821B9056B003C96D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FED349C21B9056B003C96D3 /* PBXTargetDependency */,
+			);
+			name = ninethUITests;
+			productName = ninethUITests;
+			productReference = 3FED349A21B9056B003C96D3 /* ninethUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FED347021B9056A003C96D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = qiuyue;
+				TargetAttributes = {
+					3FED347721B9056A003C96D3 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					3FED348E21B9056B003C96D3 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3FED347721B9056A003C96D3;
+					};
+					3FED349921B9056B003C96D3 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3FED347721B9056A003C96D3;
+					};
+				};
+			};
+			buildConfigurationList = 3FED347321B9056A003C96D3 /* Build configuration list for PBXProject "nineth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FED346F21B9056A003C96D3;
+			productRefGroup = 3FED347921B9056A003C96D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FED347721B9056A003C96D3 /* nineth */,
+				3FED348E21B9056B003C96D3 /* ninethTests */,
+				3FED349921B9056B003C96D3 /* ninethUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FED347621B9056A003C96D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FED348921B9056B003C96D3 /* LaunchScreen.storyboard in Resources */,
+				3FED348621B9056B003C96D3 /* Assets.xcassets in Resources */,
+				3FED348121B9056A003C96D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FED348D21B9056B003C96D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FED349821B9056B003C96D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FED347421B9056A003C96D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FED348421B9056A003C96D3 /* nineth.xcdatamodeld in Sources */,
+				3FED347E21B9056A003C96D3 /* ViewController.swift in Sources */,
+				3FED347C21B9056A003C96D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FED348B21B9056B003C96D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FED349421B9056B003C96D3 /* ninethTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FED349621B9056B003C96D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FED349F21B9056B003C96D3 /* ninethUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FED349121B9056B003C96D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FED347721B9056A003C96D3 /* nineth */;
+			targetProxy = 3FED349021B9056B003C96D3 /* PBXContainerItemProxy */;
+		};
+		3FED349C21B9056B003C96D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FED347721B9056A003C96D3 /* nineth */;
+			targetProxy = 3FED349B21B9056B003C96D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FED347F21B9056A003C96D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FED348021B9056A003C96D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FED348721B9056B003C96D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FED348821B9056B003C96D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FED34A121B9056B003C96D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FED34A221B9056B003C96D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FED34A421B9056B003C96D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = nineth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110330.nineth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FED34A521B9056B003C96D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = nineth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110330.nineth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FED34A721B9056B003C96D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ninethTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110330.ninethTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nineth.app/nineth";
+			};
+			name = Debug;
+		};
+		3FED34A821B9056B003C96D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ninethTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110330.ninethTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nineth.app/nineth";
+			};
+			name = Release;
+		};
+		3FED34AA21B9056B003C96D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ninethUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110330.ninethUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nineth;
+			};
+			name = Debug;
+		};
+		3FED34AB21B9056B003C96D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ninethUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110330.ninethUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nineth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FED347321B9056A003C96D3 /* Build configuration list for PBXProject "nineth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FED34A121B9056B003C96D3 /* Debug */,
+				3FED34A221B9056B003C96D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FED34A321B9056B003C96D3 /* Build configuration list for PBXNativeTarget "nineth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FED34A421B9056B003C96D3 /* Debug */,
+				3FED34A521B9056B003C96D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FED34A621B9056B003C96D3 /* Build configuration list for PBXNativeTarget "ninethTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FED34A721B9056B003C96D3 /* Debug */,
+				3FED34A821B9056B003C96D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FED34A921B9056B003C96D3 /* Build configuration list for PBXNativeTarget "ninethUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FED34AA21B9056B003C96D3 /* Debug */,
+				3FED34AB21B9056B003C96D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3FED348221B9056A003C96D3 /* nineth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3FED348321B9056A003C96D3 /* nineth.xcdatamodel */,
+			);
+			currentVersion = 3FED348321B9056A003C96D3 /* nineth.xcdatamodel */;
+			path = nineth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3FED347021B9056A003C96D3 /* Project object */;
+}
